@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.fiap.smartcities.dao.GenericDAO"/>
+    <fullyQualifiedTypeName name="br.com.fiap.smartcities.dao.UsuarioDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="br.com.fiap.smartcities.domain.TipoEstabelecimento"/>
+    <fullyQualifiedTypeName name="br.com.fiap.smartcities.dao.TipoEstabelecimentoDAO"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+</qualifiedTypeNameHistroy>
