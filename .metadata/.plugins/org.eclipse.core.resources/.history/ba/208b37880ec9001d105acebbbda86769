@@ -1,0 +1,20 @@
+package br.com.fiap.teste;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+
+import br.com.fiap.bean.Logradouro;
+
+public class DesserializadorLogradouro {
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		FileInputStream fileStream = new FileInputStream("logradouro.ser");
+		ObjectInputStream os = new ObjectInputStream(fileStream);
+
+		Logradouro logradouroRecuperado = (Logradouro) os.readObject();
+		System.out.println("Logradouro recuperado: " + logradouroRecuperado.getNome());
+
+		os.close();
+		fileStream.close();
+	}
+}

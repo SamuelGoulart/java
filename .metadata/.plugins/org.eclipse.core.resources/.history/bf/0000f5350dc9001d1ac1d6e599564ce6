@@ -1,0 +1,10 @@
+package br.com.fiap.bean;
+
+public class Logradouro {
+    private long id;
+    private String nome;
+    private TipoLogradouro tipo;
+    private String cep;
+         // construtor, getters e setters
+
+}
